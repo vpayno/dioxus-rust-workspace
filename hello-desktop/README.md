@@ -12,7 +12,7 @@ dx serve --hot-reload --platform desktop
 pwd
 
 sudo nala install -y --no-autoremove libwebkit2gtk-4.0-dev build-essential curl wget libssl-dev libgtk-3-dev libappindicator3-dev librsvg2-dev
-sudo nala install -y --no-autoremove libsoup-3.0-dev libwebkit2gtk-4.1-dev libxdo-dev
+sudo nala install -y --no-autoremove libsoup-3.0-dev libwebkit2gtk-4.1-dev libjavascriptcoregtk-4.1-dev libxdo-dev
 
 printf "\n"
 
