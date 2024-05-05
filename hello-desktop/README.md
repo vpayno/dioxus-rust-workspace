@@ -16,6 +16,7 @@ sudo nala install -y --no-autoremove libsoup-3.0-dev libwebkit2gtk-4.1-dev libja
 
 printf "\n"
 
+# these are running in the workspace subfolder
 cargo add chrono --features serde
 cargo add futures
 cargo add reqwest --features json
